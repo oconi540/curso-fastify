@@ -13,7 +13,7 @@ const server = fastify({
 //  caso contrario rechazamos la promesa
 const validarToken = (token) =>
     new Promise((resolve, reject) => {
-        if (token === "admin") {
+        if (token === 1234) {
             resolve();
         } else {
             reject();
