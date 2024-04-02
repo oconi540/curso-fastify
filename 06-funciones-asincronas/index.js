@@ -9,7 +9,7 @@ const server = fastify({
 
 // Simulacion de funciones de base de datos y validaciones
 
-//  Con esta simple promesa vamos a validar que el token en cabecera sea "admin",
+//  Con esta simple promesa vamos a validar que el token en cabecera sea "540deg",
 //  caso contrario rechazamos la promesa
 const validarToken = (token) =>
     new Promise((resolve, reject) => {
