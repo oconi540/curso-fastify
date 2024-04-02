@@ -6,14 +6,14 @@ const server = fastify({
     },
 });
 
-//  Promesa para simular validacion de token, el token debe ser "admin"
+//  Promesa para simular validacion de token, el token debe ser "540deg"
 const getUserData = (token) =>
     new Promise((resolve, reject) => {
-        if (token === "admin") {
+        if (token === "540deg") {
             resolve({
                 id: 1,
-                name: "Juan",
-                surname: "Perez",
+                name: "Unai",
+                surname: "Pere",
             });
         } else {
             reject();
