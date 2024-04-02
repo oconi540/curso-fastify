@@ -24,8 +24,8 @@ const validarToken = (token) =>
 const obtenerDeBaseDeDatos = async (id) => {
     return {
         id,
-        author: "Sun Tzu",
-        name: "El arte de la guerra",
+        author: "Albert Bosh",
+        name: "El arte de los movimientos",
     };
 };
 
