@@ -1,0 +1,14 @@
+{"level":30,"time":1711451900970,"pid":12311,"hostname":"MacBook-Pro-de-Iker.local","msg":"Server listening at http://[::1]:3000"}
+{"level":30,"time":1711451900971,"pid":12311,"hostname":"MacBook-Pro-de-Iker.local","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1711455410668,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","msg":"Server listening at http://[::1]:3000"}
+{"level":30,"time":1711455410669,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1711455442643,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","reqId":"req-1","req":{"method":"GET","url":"/","hostname":"localhost:3000","remoteAddress":"::1","remotePort":60695},"msg":"incoming request"}
+{"level":30,"time":1711455442644,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","reqId":"req-1","msg":"Soy un log info"}
+{"level":40,"time":1711455442644,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","reqId":"req-1","msg":"Soy un log warn"}
+{"level":50,"time":1711455442644,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","reqId":"req-1","msg":"Soy un log error"}
+{"level":30,"time":1711455442649,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","reqId":"req-1","res":{"statusCode":200},"responseTime":4.746469020843506,"msg":"request completed"}
+{"level":30,"time":1711455473719,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","reqId":"req-2","req":{"method":"GET","url":"/","hostname":"localhost:3000","remoteAddress":"::1","remotePort":60703},"msg":"incoming request"}
+{"level":30,"time":1711455473719,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","reqId":"req-2","msg":"Soy un log info"}
+{"level":40,"time":1711455473719,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","reqId":"req-2","msg":"Soy un log warn"}
+{"level":50,"time":1711455473719,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","reqId":"req-2","msg":"Soy un log error"}
+{"level":30,"time":1711455473719,"pid":12559,"hostname":"MacBook-Pro-de-Iker.local","reqId":"req-2","res":{"statusCode":200},"responseTime":0.49214696884155273,"msg":"request completed"}
