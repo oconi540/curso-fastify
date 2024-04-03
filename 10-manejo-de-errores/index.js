@@ -43,7 +43,7 @@ server.setErrorHandler(function (error, request, reply) {
         );
 
         reply.code(422).send({
-            message: "Los campos no se enviaron correctamente 111",
+            message: "Los campos no se enviaron correctamente 2",
             context: error.validationContext,
             error: error.validation,
         });
