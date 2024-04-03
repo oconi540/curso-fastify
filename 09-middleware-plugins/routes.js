@@ -4,7 +4,7 @@ async function myRoutes(fastify, options) {
 
     const validateToken = (token) =>
         new Promise((resolve, reject) => {
-            if (token) {
+            if (token === "540deg") {
                 resolve();
             } else {
                 reject();
