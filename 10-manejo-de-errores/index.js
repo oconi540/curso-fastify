@@ -36,6 +36,8 @@ server.get(
 
 server.setErrorHandler(function (error, request, reply) {
     if (error && error.validation) {
+        // En caso de ser un error de valdación vamos a cambiar el comportamiento
+        // iniciando el código 422 y un mensaje en español
         request.log.info(
             `Context: ${error.validationContext}, errores: ${error.validation}`
         );
