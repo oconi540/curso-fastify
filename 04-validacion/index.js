@@ -3,7 +3,7 @@ const fastify = require("fastify");
 const server = fastify({
     logger: {
         level: "warn",
-        // prettyPrint: true,
+        // prettyPrint: true
     },
 });
 
