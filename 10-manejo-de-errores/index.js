@@ -30,6 +30,13 @@ server.get(
             reply.send({
                 message: "Mi mensaje",
             });
+        })
+            .catch(error => {
+                // Maneja el error aquí
+                    console.error("Error en la promesa:", error);
+                    reply.code(500).send({
+                        message: "Error en el servidor",
+            });
         });
     }
 );
